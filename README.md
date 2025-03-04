@@ -44,7 +44,14 @@ This project contains two Python scripts: **PyBank** for financial analysis and 
 ---
 
 ## File Structure
-- **`main.py`**: Main script for both
+- **`main.py`**: Main script for both analyses.
+- **`Resources/`**: Folder containing the CSV files.
+- **`Analysis/`**: Folder where the results text files will be saved.
+
+---
+
+## Requirements
+- Python 3.x (No external libraries needed)
 
 
 
