@@ -1,28 +1,55 @@
-# Python-Challenge
-Module 3 PyBank Instructions In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
+# Python-Challenge: PyBank & PyPoll
 
-Your task is to create a Python script that analyzes the records to calculate each of the following values:
+This project contains two Python scripts: **PyBank** for financial analysis and **PyPoll** for election results analysis. Both scripts process CSV data to calculate key metrics and output results to the terminal and a text file.
 
-The total number of months included in the dataset
+---
 
-The net total amount of "Profit/Losses" over the entire period
+## PyBank: Financial Analysis
 
-The changes in "Profit/Losses" over the entire period, and then the average of those changes
+**Goal**: Analyze financial data (`budget_data.csv`) to compute:
+- Total Months
+- Total Profit/Loss
+- Average Monthly Change
+- Greatest Increase and Decrease in Profits
 
-The greatest increase in profits (date and amount) over the entire period
+**How it works**:
+- Reads the CSV file and extracts the financial data.
+- Calculates total profit/loss, the greatest increase and decrease, and average monthly changes.
+- Results are printed to the terminal and saved in `Analysis/Analysis.txt`.
 
-The greatest decrease in profits (date and amount) over the entire period
+---
 
-PyPoll Instructions In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
+## PyPoll: Election Results
 
-You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
+**Goal**: Analyze election data (`election_data.csv`) to compute:
+- Total Votes
+- Vote Percentage per Candidate
+- Election Winner
 
-The total number of votes cast
+**How it works**:
+- Reads the election data CSV and counts votes per candidate.
+- Displays the total number of votes and the percentage of votes each candidate received.
+- Outputs the winner of the election.
+- Results are printed to the terminal and saved in `Analysis/Pypoll_analysis.txt`.
 
-A complete list of candidates who received votes
+---
 
-The percentage of votes each candidate won
+## How to Run
 
-The total number of votes each candidate won
+1. Place the CSV files (`budget_data.csv` and `election_data.csv`) inside the `Resources/` folder.
+2. Run the script with:  
+   `python main.py`
+3. Results will be printed to the terminal and saved in the `Analysis/` folder.
 
-The winner of the election based on popular vote
+---
+
+## File Structure
+- **`main.py`**: Main script for both
+
+
+
+
+
+
+
+
